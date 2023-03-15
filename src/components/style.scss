@@ -1,0 +1,31 @@
+body{
+  background-image: url('../images/cosmos.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1{
+  color: #fff;
+}
+p{
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+}
+.container{
+  padding: 200px;
+  text-align: center;
+  .container-images{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    .column-image{
+      width: 500px;
+      height: 400px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
